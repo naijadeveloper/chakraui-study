@@ -1,5 +1,11 @@
+import { Text } from "@chakra-ui/react";
+
 export default function App() {
   return (
-    <div className="min-h-screen text-gray-200 bg-gray-900">Hello App</div>
+    <div className="min-h-screen text-gray-200 bg-[#0D1117]">
+      <Text fontSize="60px">
+        Hello world
+      </Text>
+    </div>
   );
 }
